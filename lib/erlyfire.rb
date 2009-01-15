@@ -26,6 +26,9 @@ class Erlyfire
     else
       false
     end
+    # Just catch anything that went wrong and send back a false
+  rescue
+    false
   end
 
 end
